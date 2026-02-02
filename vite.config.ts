@@ -9,7 +9,7 @@ export default defineConfig({
       "@": path.resolve(__dirname, "./src"),
     },
   },
-  base: process.env.NODE_ENV === 'production' ? '/personal-portfolio/' : '/',
+  base: process.env.NODE_ENV === 'production' ? '/portfolio/' : '/',
   build: {
     outDir: 'dist',
     sourcemap: true,

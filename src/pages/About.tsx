@@ -52,25 +52,25 @@ const About: React.FC = () => {
     {
       year: '2023 - Present',
       title: 'Senior Full Stack Developer',
-      company: 'Tech Company Inc.',
+      company: 'Tech Solutions Vietnam',
       description: 'Leading development of scalable web applications and mentoring junior developers.',
     },
     {
       year: '2021 - 2023',
       title: 'Full Stack Developer',
-      company: 'Digital Agency',
+      company: 'Digital Agency Vietnam',
       description: 'Built and maintained multiple client projects using modern web technologies.',
     },
     {
       year: '2019 - 2021',
       title: 'Frontend Developer',
-      company: 'StartupXYZ',
+      company: 'Vietnam Startup Hub',
       description: 'Developed responsive user interfaces and improved application performance.',
     },
     {
       year: '2018 - 2019',
       title: 'Junior Developer',
-      company: 'Web Solutions Co.',
+      company: 'Web Solutions Vietnam',
       description: 'Started my professional journey, learning best practices and contributing to various projects.',
     },
   ]
@@ -107,7 +107,7 @@ const About: React.FC = () => {
               </h2>
               <div className="space-y-4 text-gray-600 dark:text-gray-300">
                 <p>
-                  Hello! I'm Your Name, a passionate full stack developer based in Your Location. 
+                  Hello! I'm Tan Nguyen, a passionate full stack developer based in Ho Chi Minh City, Vietnam. 
                   My journey in web development started when I built my first website during college, 
                   and I've been hooked ever since.
                 </p>

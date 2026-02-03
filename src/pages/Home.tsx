@@ -15,11 +15,6 @@ const Home: React.FC = () => {
       icon: Linkedin,
       href: 'https://linkedin.com/in/yourusername',
     },
-    {
-      name: 'Twitter',
-      icon: Twitter,
-      href: 'https://twitter.com/yourusername',
-    },
   ]
 
   return (
@@ -40,7 +35,7 @@ const Home: React.FC = () => {
               className="text-4xl sm:text-5xl lg:text-6xl font-bold mb-6"
             >
               <span className="text-gray-900 dark:text-white">Hi, I'm </span>
-              <span className="text-gradient">Your Name</span>
+              <span className="text-gradient">Tan Nguyen</span>
             </motion.h1>
 
             <motion.p

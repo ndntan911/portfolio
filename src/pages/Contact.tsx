@@ -24,19 +24,19 @@ const Contact: React.FC = () => {
     {
       icon: Mail,
       label: 'Email',
-      value: 'your.email@example.com',
-      href: 'mailto:your.email@example.com'
+      value: 'ndntan911@gmail.com',
+      href: 'mailto:ndntan911@gmail.com'
     },
     {
       icon: Phone,
       label: 'Phone',
-      value: '+1 (555) 123-4567',
-      href: 'tel:+15551234567'
+      value: '+84 123-456-7890',
+      href: 'tel:+841234567890'
     },
     {
       icon: MapPin,
       label: 'Location',
-      value: 'Your City, Country',
+      value: 'Ho Chi Minh City, Vietnam',
       href: '#'
     }
   ]
@@ -45,17 +45,17 @@ const Contact: React.FC = () => {
     {
       name: 'GitHub',
       icon: Github,
-      href: 'https://github.com/yourusername'
+      href: 'https://github.com/ndntan911'
     },
     {
       name: 'LinkedIn',
       icon: Linkedin,
-      href: 'https://linkedin.com/in/yourusername'
+      href: 'https://linkedin.com/in/ndntan911'
     },
     {
       name: 'Twitter',
       icon: Twitter,
-      href: 'https://twitter.com/yourusername'
+      href: 'https://twitter.com/ndntan911'
     }
   ]
 
@@ -242,7 +242,7 @@ const Contact: React.FC = () => {
                     onChange={handleChange}
                     required
                     className="input-field"
-                    placeholder="Your Name"
+                    placeholder="Tan Nguyen"
                   />
                 </div>
 
@@ -258,7 +258,7 @@ const Contact: React.FC = () => {
                     onChange={handleChange}
                     required
                     className="input-field"
-                    placeholder="your.email@example.com"
+                    placeholder="ndntan911@gmail.com"
                   />
                 </div>
 

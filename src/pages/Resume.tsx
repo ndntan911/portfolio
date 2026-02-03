@@ -10,14 +10,14 @@ const Resume: React.FC = () => {
   })
 
   const personalInfo = {
-    name: "Your Name",
+    name: "Tan Nguyen",
     title: "Full Stack Developer",
-    email: "your.email@example.com",
-    phone: "+1 (555) 123-4567",
-    location: "Your City, Country",
-    website: "https://yourwebsite.com",
-    linkedin: "https://linkedin.com/in/yourusername",
-    github: "https://github.com/yourusername"
+    email: "ndntan911@gmail.com",
+    phone: "+84 123-456-7890",
+    location: "Ho Chi Minh City, Vietnam",
+    website: "https://ndntan911.github.io/portfolio/",
+    linkedin: "https://linkedin.com/in/ndntan911",
+    github: "https://github.com/ndntan911"
   }
 
   const summary = `
@@ -30,8 +30,8 @@ const Resume: React.FC = () => {
   const experience = [
     {
       title: "Senior Full Stack Developer",
-      company: "Tech Company Inc.",
-      location: "San Francisco, CA",
+      company: "Tech Solutions Vietnam",
+      location: "Ho Chi Minh City, Vietnam",
       duration: "2023 - Present",
       responsibilities: [
         "Lead development of scalable web applications serving 100K+ users",
@@ -44,8 +44,8 @@ const Resume: React.FC = () => {
     },
     {
       title: "Full Stack Developer",
-      company: "Digital Agency",
-      location: "New York, NY",
+      company: "Digital Agency Vietnam",
+      location: "Ho Chi Minh City, Vietnam",
       duration: "2021 - 2023",
       responsibilities: [
         "Developed and maintained 15+ client projects across various industries",
@@ -58,8 +58,8 @@ const Resume: React.FC = () => {
     },
     {
       title: "Frontend Developer",
-      company: "StartupXYZ",
-      location: "Austin, TX",
+      company: "Vietnam Startup Hub",
+      location: "Ho Chi Minh City, Vietnam",
       duration: "2019 - 2021",
       responsibilities: [
         "Built responsive user interfaces using React and modern CSS",
@@ -72,8 +72,8 @@ const Resume: React.FC = () => {
     },
     {
       title: "Junior Developer",
-      company: "Web Solutions Co.",
-      location: "Seattle, WA",
+      company: "Web Solutions Vietnam",
+      location: "Ho Chi Minh City, Vietnam",
       duration: "2018 - 2019",
       responsibilities: [
         "Assisted in development of client websites and applications",
@@ -89,8 +89,8 @@ const Resume: React.FC = () => {
   const education = [
     {
       degree: "Bachelor of Science in Computer Science",
-      institution: "University Name",
-      location: "City, State",
+      institution: "University of Science Ho Chi Minh City",
+      location: "Ho Chi Minh City, Vietnam",
       duration: "2014 - 2018",
       gpa: "3.8/4.0",
       achievements: [

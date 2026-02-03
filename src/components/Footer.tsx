@@ -26,7 +26,7 @@ const Footer: React.FC = () => {
     {
       name: 'Email',
       icon: Mail,
-      href: 'mailto:your.email@example.com',
+      href: 'mailto:ndntan911',
       ariaLabel: 'Email Contact'
     },
   ]
@@ -113,11 +113,11 @@ const Footer: React.FC = () => {
                 Feel free to reach out for collaborations or just a friendly hello!
               </p>
               <a 
-                href="mailto:your.email@example.com" 
+                href="mailto:ndntan911@gmail.com" 
                 className="inline-flex items-center text-primary-600 dark:text-primary-400 hover:underline"
               >
                 <Mail className="w-4 h-4 mr-2" />
-                your.email@example.com
+                ndntan911@gmail.com
               </a>
             </div>
           </div>
@@ -127,7 +127,7 @@ const Footer: React.FC = () => {
         <div className="mt-8 pt-8 border-t border-gray-200 dark:border-gray-700">
           <div className="flex flex-col md:flex-row justify-between items-center">
             <p className="text-gray-500 dark:text-gray-400 text-sm">
-              © {currentYear} Your Name. All rights reserved.
+              © {currentYear} Tan Nguyen. All rights reserved.
             </p>
             <div className="flex items-center space-x-4 mt-4 md:mt-0">
               <a 
